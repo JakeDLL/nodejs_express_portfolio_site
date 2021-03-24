@@ -1,0 +1,19 @@
+{
+  "name": "nodejs_express_portfolio_site",
+  "version": "1.0.0",
+  "description": "Node.js and express portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakeDLL/nodejs_express_portfolio_site.git"
+  },
+  "author": "Raul J. Del Llano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JakeDLL/nodejs_express_portfolio_site/issues"
+  },
+  "homepage": "https://github.com/JakeDLL/nodejs_express_portfolio_site#readme"
+}
