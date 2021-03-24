@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/JakeDLL/nodejs_express_portfolio_site/issues"
   },
-  "homepage": "https://github.com/JakeDLL/nodejs_express_portfolio_site#readme"
+  "homepage": "https://github.com/JakeDLL/nodejs_express_portfolio_site#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
 }
