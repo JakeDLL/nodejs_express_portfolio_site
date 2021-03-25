@@ -1,0 +1,96 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "This is a simple website that generates a random quote from an array and displays it along with its properties.",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "https://jakedll.github.io/random_quote_generator",
+            "github_link": "https://github.com/JakeDLL/random_quote_generator",
+            "image_urls": [
+                "/static/images/random_quote_generator/image1.png",
+                "/static/images/random_quote_generator/image2.png",
+                "/static/images/random_quote_generator/image3.png"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "User Profile List",
+            "description": "This project focuses on manipulating the DOM using only 'vanilla' JS to practice data pagination and filtering",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "https://jakedll.github.io/user-profile-list",
+            "github_link": "https://github.com/JakeDLL/user-profile-list",
+            "image_urls": [
+                "/static/images/user_profile_list/image1.png",
+                "/static/images/user_profile_list/image2.png",
+                "/static/images/user_profile_list/image3.png"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Full Stack Conference Form",
+            "description": "An interactive registration form for a fictional conference which shows dynamic DOM manipulation and responsiveness.",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Regex"
+            ],
+            "live_link": "https://jakedll.github.io/fullstack-conf-project",
+            "github_link": "https://github.com/JakeDLL/fullstack-conf-project",
+            "image_urls": [
+                "/static/images/fullstack_conf_project/image1.png",
+                "/static/images/fullstack_conf_project/image2.png",
+                "/static/images/fullstack_conf_project/image3.png"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "Phrase Hunter",
+            "description": "This is a phrase hunter game show where the player tries to guess the phrase by clicking letters on the on-screen keyboard or typing them on a physical keyboard.",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "OOP"
+            ],
+            "live_link": "https://jakedll.github.io/phrase-hunter-game-show-app",
+            "github_link": "https://github.com/JakeDLL/phrase-hunter-game-show-app",
+            "image_urls": [
+                "/static/images/phrase_hunter_game_show_app/image1.png",
+                "/static/images/phrase_hunter_game_show_app/image2.png",
+                "/static/images/phrase_hunter_game_show_app/image3.png",
+                "/static/images/phrase_hunter_game_show_app/image4.png"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Awesome Startup Employee Directory",
+            "description": "This will be an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. This uses the Random User Generator API.",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "fetch API",
+                "Promises",
+                "JSON",
+                "Random User Generator API"
+            ],
+            "live_link": "https://jakedll.github.io/awesome-startup-employee-list",
+            "github_link": "https://github.com/JakeDLL/awesome-startup-employee-list",
+            "image_urls": [
+                "/static/images/awesome_startup_employee_list/image1.png",
+                "/static/images/awesome_startup_employee_list/image2.png",
+                "/static/images/awesome_startup_employee_list/image3.png"
+            ]
+        }
+    ]
+}
