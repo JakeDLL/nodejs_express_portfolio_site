@@ -72,6 +72,7 @@ app.use((err, req, res, next) => {
     // This logs the error to the server console
     console.log(`${err.message} - (${err.status})`);
 
+    if (err.status == 404) res.render('page-not-found');
     res.render('error');
 })
 

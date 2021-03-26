@@ -2,21 +2,13 @@ extends layout.pug
 
 block content
     .box
-        h1 Oh no ...
-        h2 There seems to be a problem. 
-        if error.status == 404
+        h1 Noooooo....
+            h2 There seems to be a problem.
+            br
             h3
-                em I find the lack of pages distrubing... (#{error.message} - #{error.status})
+                em #{error.message} - (#{error.status})
+            if (error.stack)
+                pre= error.stack
             br
-            p Maybe you were looking for this?
-        else
-            h3 #{error.message} - #{error.status}
-            br
-            p Please try again at a later time or try these links:
-        ul
-            li
-                a(href="/project") Projects
-            li
-                a(href="/about") About me
-            li
-                a(href="/") Home 
+            h5 If you would like to go home
+                a(href="/")  click here 

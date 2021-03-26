@@ -1,0 +1,17 @@
+extends layout.pug
+
+block content
+    .box
+        h1 Oh no ...
+        h2 There seems to be a problem. 
+        h3
+            em I find the lack of pages distrubing... (#{error.message} - #{error.status})
+        br
+        p Maybe you were looking for this?
+        ul
+            li
+                a(href="/project") Projects
+            li
+                a(href="/about") About me
+            li
+                a(href="/") Home 
