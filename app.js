@@ -22,14 +22,14 @@ app.get('/project', (req, res) => {
 
 app.get('/project/:id', (req, res, next) => {
     const { id } = req.params;
-    if (isNaN(id)) {
+    if ( isNaN(id) || id >= projects.length ) {
         const err = new Error('Bad Request: No such project');
         err.status = 400;
         return next(err);
     }
     const project = projects[id];
 
-    res.render('project', { project });
+    res.render('project', project);
 });
 
 app.use((req, res, next) => {

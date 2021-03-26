@@ -9,14 +9,14 @@ block content
                 em I find the lack of pages distrubing... (#{error.message} - #{error.status})
             br
             p Maybe you were looking for this?
-            ul
-                li
-                    a(href="/project") Projects
-                li
-                    a(href="/about") About me
-                li
-                    a(href="/") Home 
         else
             h3 #{error.message} - #{error.status}
             br
-            p Please try again at a later time.
+            p Please try again at a later time or try these links:
+        ul
+            li
+                a(href="/project") Projects
+            li
+                a(href="/about") About me
+            li
+                a(href="/") Home 
